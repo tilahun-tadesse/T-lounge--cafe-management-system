@@ -1,0 +1,242 @@
+r/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 9, 2022, 9:53:26 PM
+    Author     : Hp
+*/
+*
+
+* {
+    color: black;
+}
+li.list2 a
+{
+    border: 1px solid white;
+    background: white;
+    color:#333333;
+    border-radius: 5px;
+    transition: 1s;
+    
+}
+
+div .single_imagebody 
+{
+   
+   
+   
+    width: 300px;
+    height: 450px;
+    color: black;
+    margin-top:  20px;
+    margin-left: 10px;
+   
+        
+}
+div .single_imagebody img
+{
+    border: 1px solid white;
+    width: 300px;
+    height: 400px;
+    float: right;
+    padding-left: 10px
+}
+
+div.flot_left
+{
+    float: left;
+    margin-top: 30px;
+}
+div.status
+{
+    display: none;
+}
+div.creat_login 
+{
+    margin-left: 600px;
+}
+div.creat_login input
+{
+    width: 100px;
+    margin-left: 60px;
+    border-radius: 10px;
+    border-color: blue;
+}
+div.creat_login button
+{
+    width: 100px;
+    margin-left: 60px;
+    border-radius: 10px;
+    border-color: blue;
+}
+div.add_to input
+
+{
+    margin-left: 150px;
+       width: 60px; 
+    border-radius: 10px;
+    border-color: blue;
+    display: block;
+}
+
+div.hidden_form
+{
+    display: none;
+}
+div.hide_id  input
+{
+    display: none;
+}
+ div.hidden_form form {
+  border: 3px solid #f1f1f1;
+  margin-left: 500px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-right: 30px;
+  
+       
+}
+
+/* Full-width inputs */
+div.hidden_form input[type=text], input[type=password] {
+  width: 400px;;
+  padding: 12px 20px;
+  margin: 8px 0;
+ 
+  margin-right: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+div.hidden_form label
+{
+    color: black;
+}
+
+/* Set a style for all buttons */
+ div.hidden_form button {
+ 
+  width: 100px;
+  margin-left: 150px;
+  border-radius: 10px;
+  border-color: blue;
+  margin-top: 30px;
+  
+}
+div.food_quantity
+{
+    padding-left: 50px;
+    padding-top: 50px;
+   
+}
+div .food_cart_quantity
+{
+    border: 1px solid white;
+    background: white;
+    margin-top: 20px;
+    float: left;
+    margin-left: 850px;
+    margin-top: 50px;
+   position: fixed;
+   width: 400px;
+   height: 600px;
+}
+div .shadow_background
+{
+    background-color: rgba(0, 0, 0, 0.5);
+	margin: auto auto;
+	padding: 40px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #000;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+        
+    
+}
+div.food_image img
+{
+ width: 350px;
+ height: 430px;
+ margin-left: 20px;
+ margin-top: 20px;
+}
+div .number_of_food input
+{
+    width: 30px;
+}
+div.order_food input
+{
+   margin-left: 100px;
+   width: 80px;
+   border-color: blue;
+   border-radius: 10px;
+   float: left;
+}
+
+div .food_quantity_input 
+{
+    float: left;
+    margin-left:40px; ;
+    
+    
+}
+div .cartmenu
+{
+    border: 1px solid rgba(225,225,225,0.4);
+    height: 50px;
+    clear: both;
+    width:1000px;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+   
+    
+}
+div .cartlable label
+{
+    color: white;
+}
+div .cartlable .cartmenu_submit
+{
+   border-color: blue;
+   width: 100px;
+   border-radius: 10px;
+}
+div .cartlable input
+
+{
+    background: none;
+    color: black;
+    width: 100px; 
+    border-color: blue;
+}
+div .cartmenu .cartlable
+{
+    padding-top: 10px;
+    margin-left: 700px;
+    color: red;
+}
+div .cartlable input
+{
+    width: 100px;
+    border-color: blue;
+    border-radius: 10px;
+}
+div .cartmenu  input
+{
+    color:black; ;
+   width: 100px;
+    margin-left: 20px;
+}
+div.add_to
+{
+    width: 100px;
+}
+
+

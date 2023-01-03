@@ -1,0 +1,257 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 25, 2022, 10:44:59 PM
+    Author     : Hp
+*/
+
+*{
+  padding: 0;
+  margin: 0;
+  
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: montserrat;
+  
+}
+nav{
+   background: #333333;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,.first:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+    
+  }
+  
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+ a.active, .first:hover{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+
+section.c{
+    height: 85px;
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+/*              */
+
+.side{
+    width: 25%;
+    height:100%;
+    background:#333333;
+    border: 1px solid #333333;
+    position: fixed;
+    top: 85px;
+    
+    border-radius: 10px;
+    padding: 60px 30px;
+}
+.ulnav
+{
+    list-style: none;
+    position: relative;
+}
+.ulnav li
+{
+    padding: 25px 0;
+    
+}
+.ulnav li a
+{
+    color: #ffffff;
+    padding: 3px 3px;
+    display:flex;
+    align-items: center;
+    background:#333333;
+    border-radius: 10px;
+    border: none;
+    width:250px;
+}
+.ulnav li:hover a
+{
+    border: 1px solid white;
+    background: white;
+    color: #333333;
+    border-radius: 10px;
+    transition: 1s;
+    
+}
+.ulnav li a i
+{
+    margin-right: 20px;
+    font-size: 22px;
+    
+}
+
+
+.ulnav li :active
+{
+    
+}
+
+/* main body */
+p.border
+{
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+[class*="col-"]{
+    margin-top: 0;
+    border: 1px solid white;
+    float: left;
+    color: red;
+    height: auto;
+ }
+.col-3{
+    width: 25%;
+}
+.col-6{
+    width: 75%;
+}
+
+
+
+/*new food css***************************************************************/
+div #id1
+{
+    margin-left: 800px;
+    width: 50px;
+    height: 20px;
+}
+div #id1 button
+{
+     width: 90px;
+    height: 30px;
+    background: #6699ff;
+    color: white;
+     border-radius: 10px;   
+}
+div #id1 button:hover
+{
+    background: #3300ff;
+    color: #ffffff;
+    width: 100px;
+     border-radius: 10px;   
+}
+div #add
+{
+    display: none;
+}
+div.addfood label
+{
+    color: black;
+    font-size: 20px;
+}
+div input.submitimage
+{
+    margin-left: 650px;
+    width: 90px;
+    
+}
+div .mainbody
+{
+  
+    margin-left: 20px;
+}
+
+div .foodimage
+{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+

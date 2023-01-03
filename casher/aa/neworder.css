@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 9, 2022, 8:53:30 PM
+    Author     : Hp
+*/
+.food_order
+{
+    color: black;
+}
+.deliver input
+{
+    border-color: blue;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 900px;
+    margin-top: 30px;
+}
+.ulnav li a.list2
+{
+    border: 1px solid white;
+    background: white;
+    color:#333333;
+    border-radius: 5px;
+    transition: 1s;
+    
+}
+

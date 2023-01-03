@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 11, 2022, 11:52:14 PM
+    Author     : Hp
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 10, 2022, 12:08:24 PM
+    Author     : Hp
+*/
+
+div.message p
+{
+    color: black;
+}
+div.message 
+{
+    float: left;
+    border-radius: 10px 10px 0px 10px;
+    background: #00ccff;
+    padding-right: 20px;
+    padding-left: 20px;
+   
+    
+}
+div.user_feedback
+{
+   
+
+}
+div.space
+{
+    margin-top: 20px;
+}
+div.massege_user
+{
+    border: 1px solid white;
+    width: 350px;
+    float: right;
+    margin-right: 600px
+}
+div.search_txet
+{
+    border: 1px solid white;
+    margin-top: 430px;
+    width: 650px;
+    height:  30px;
+  position: fixed;
+      
+  
+}
+div .send 
+{
+    margin-left:100%;
+    margin-top: 400px;
+    
+}

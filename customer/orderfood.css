@@ -1,0 +1,219 @@
+/*
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 29, 2022, 10:05:11 PM
+    Author     : Hp
+*/
+
+
+div.home_special
+{
+    margin-top: 30px;
+    margin-bottom: 30PX;
+    border: 1px solid rgba(225,225,225,0.4);
+    height: 50px;
+    clear: both;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+    
+}
+div .single_imagebody 
+{
+   
+    width: 300px;
+    height: 350px;
+    float: left;
+    
+}
+div .single_imagebody img
+{
+    width: 300px;
+    height: 400px;
+     float :left;
+}
+
+div .single_imagebody p
+{
+    color: black;
+}
+div .imagebody
+{
+    float: left;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+
+div .single_imagebody input
+{
+    width: 100px;
+    color: black;
+    border-color: blue;
+    background: white;
+    margin-left: 160px;
+    border-radius: 5px;
+    
+}
+div .single_imagebody p .p1
+{
+ 
+   top: 600px;
+   padding-left:0px;
+   color: red;
+}
+div .single_imagebody
+{
+    border: 1px solid wheat;
+    height: 470px;
+   
+    margin-top: 50px;
+    float: left;
+    margin-left: 10px;
+    
+    
+}
+div .cartmenu
+{
+    border: 1px solid rgba(225,225,225,0.4);
+    height: 50px;
+    clear: both;
+    width:1000px;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+   
+    
+}
+div .cartlable label
+{
+    color: white;
+}
+div .cartlable .cartmenu_submit
+{
+   border-color: blue;
+   width: 100px;
+   border-radius: 10px;
+}
+div .cartlable input
+
+{
+    background: none;
+    color: black;
+    width: 100px; 
+    border-color: blue;
+}
+div .cartmenu .cartlable
+{
+    padding-top: 10px;
+    margin-left: 700px;
+    color: red;
+}
+div .cartlable input
+{
+    width: 100px;
+    border-color: blue;
+    border-radius: 10px;
+}
+div .cartmenu  input
+{
+    color:black; ;
+   width: 100px;
+    margin-left: 20px;
+}
+
+div.food_quantity
+{
+    padding-left: 50px;
+    padding-top: 50px;
+   
+}
+div .food_cart_quantity
+{
+    border: 1px solid white;
+    background: white;
+    margin-top: 20px;
+    float: left;
+    margin-left: 850px;
+    margin-top: 40px;
+   position: fixed;
+   width: 400px;
+   height: 600px;
+}
+div .shadow_background
+{
+    background-color: rgba(0, 0, 0, 0.5);
+	margin: auto auto;
+	padding: 40px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #000;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+        
+    
+}
+div.food_image img
+{
+ width: 350px;
+ height: 430px;
+ margin-left: 20px;
+ margin-top: 20px;
+}
+div .number_of_food input
+{
+    width: 30px;
+}
+div.order_food input
+{
+   margin-left: 100px;
+   width: 80px;
+   border-color: blue;
+   border-radius: 10px;
+   float: left;
+}
+
+div .food_quantity_input 
+{
+    float: left;
+    margin-left:40px; ;
+    
+    
+}
+div #cart_submit input
+{
+    margin-left: 200px;
+    width: 100px;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+
+div .cartinput
+{
+    display: none;
+}
+div .hidden_input
+{
+   
+    display:none;
+}
+li.list1 a
+{
+    border: 1px solid white;
+    background: white;
+    color:#333333;
+    border-radius: 5px;
+    transition: 1s;
+    
+}
+
+
+
